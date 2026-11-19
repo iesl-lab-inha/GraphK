@@ -1,0 +1,21 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.idea/
+*.iml
+
+# Data and generated artifacts
+/data/*
+!/data/README.md
+/tsne_plots/
+/runs/
+*.pt
+*.pth
+*.pkl
+*.pk
+
+# Keep the archived experiment records
+!/results/record_*.pk
